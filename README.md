@@ -1,13 +1,14 @@
 # Social Circle Simulation
 
-[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://python.org)
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![Pygame](https://img.shields.io/badge/Pygame-2.0+-green.svg)](https://pygame.org)
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)]()
 
 A  cellular automaton simulation that models human social behavior and group dynamics. This  simulation explores emergent patterns in social contagion, demonstrating how individual interactions create complex population-level behaviors.
 
-![Simulation Screenshot 1](screenshot1.png)
-![Simulation Screenshot 2](screenshot2.png)
+![circle](https://github.com/user-attachments/assets/8d8fdd16-d8b0-46a7-b3de-b9b1f9baf30d)
+![second](https://github.com/user-attachments/assets/45178d51-dfe1-4275-b3ac-7acaa9a97bed)
+
 
 ## ✨ Features
 
