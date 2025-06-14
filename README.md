@@ -30,7 +30,7 @@ A  cellular automaton simulation that models human social behavior and group dyn
 pip install pygame numpy
 ```
 
-### ⚡ Quick Start
+### Quick Start
 ```bash
 git clone [your-repository-url]
 cd human-behavior-simulation
@@ -44,7 +44,7 @@ python simulation.py
 - ** Green (Good)**: Represents positive behaviors or attitudes  
 - ** Black**: Empty space
 
-### ⚔ Interaction Rules
+###  Interaction Rules
 
 ####  Individual Interactions
 - **Good vs Bad encounters**:
