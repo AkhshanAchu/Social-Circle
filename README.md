@@ -95,27 +95,4 @@ MAX_POPULATION = 40%    # 🏠 Maximum sustainable density
 INITIAL_POPULATION = 15% # 🌱 Starting population ratio
 ```
 
-## 📈 Statistics Dashboard
-
-The simulation provides comprehensive real-time analytics:
-- **🔢 Generation**: Current evolutionary iteration
-- **👥 Population**: Live count vs maximum system capacity
-- **⚖️ Distribution**: Behavioral composition (Bad vs Good ratios)
-- **📊 Events**: Per-generation conversions, deaths, and births tracking
-
-## 🔍 Interesting Behaviors to Observe
-
-- **🏘️ Cluster Formation**: Emergent homophily and spatial segregation
-- **⚔️ Border Conflicts**: High-intensity dynamics at behavioral boundaries
-- **📈 Population Cycles**: Complex demographic boom-bust patterns
-- **🌊 Conversion Cascades**: Minority influence and tipping point phenomena
-- **⚖️ Stability vs Chaos**: Equilibrium states versus perpetual oscillation
-
-## 🛠️ Technical Architecture
-
-- **🏗️ Built with**: Python, Pygame, NumPy
-- **📊 Grid Architecture**: Configurable dimensions (default 200×150)
-- **⚡ Performance**: Optimized spatial algorithms with bounded neighbor search
-- **🧮 Algorithm**: Custom probabilistic cellular automaton with social physics
-
 Made with ❤️ from NiceGuy
