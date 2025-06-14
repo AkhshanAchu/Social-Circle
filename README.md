@@ -10,20 +10,20 @@ A  cellular automaton simulation that models human social behavior and group dyn
 ![second](https://github.com/user-attachments/assets/45178d51-dfe1-4275-b3ac-7acaa9a97bed)
 
 
-## ✨ Features
+## Features
 
-- 🎬 **Real-time Visualization**: Watch behavior patterns emerge and evolve dynamically
-- 🧠 **Complex Social Rules**: Individual and group-based interactions with realistic probability models
-- 📊 **Population Dynamics**: Advanced birth, death, conversion, and migration mechanics
-- 🎮 **Interactive Controls**: Toggle kill mechanics, pause simulation, adjust simulation speed
-- 📈 **Statistical Tracking**: Comprehensive monitoring of population changes and behavioral shifts
-- ⚖️ **Overpopulation Management**: Intelligent population control with crowding-based selection algorithms
+-  **Real-time Visualization**: Watch behavior patterns emerge and evolve dynamically
+-  **Complex Social Rules**: Individual and group-based interactions with realistic probability models
+-  **Population Dynamics**: Advanced birth, death, conversion, and migration mechanics
+-  **Interactive Controls**: Toggle kill mechanics, pause simulation, adjust simulation speed
+-  **Statistical Tracking**: Comprehensive monitoring of population changes and behavioral shifts
+-  **Overpopulation Management**: Intelligent population control with crowding-based selection algorithms
 
-## 🚀 Installation
+##  Installation
 
-### 📋 Prerequisites
-- Python 3.11+ 🐍
-- pip package manager 📦
+###  Prerequisites
+- Python 3.11+ 
+- pip package manager 
 
 ### 🔧 Dependencies
 ```bash
@@ -37,16 +37,16 @@ cd human-behavior-simulation
 python simulation.py
 ```
 
-## 🔬 How It Works
+##  How It Works
 
-### 🎯 Cell Types
-- **🔴 Red (Bad)**: Represents negative behaviors or attitudes
-- **🟢 Green (Good)**: Represents positive behaviors or attitudes  
-- **⚫ Black**: Empty space
+### Cell Types
+- ** Red (Bad)**: Represents negative behaviors or attitudes
+- ** Green (Good)**: Represents positive behaviors or attitudes  
+- ** Black**: Empty space
 
-### ⚔️ Interaction Rules
+### ⚔ Interaction Rules
 
-#### 👤 Individual Interactions
+####  Individual Interactions
 - **Good vs Bad encounters**:
   - 3+ Bad neighbors → 75% kill Good, 25% convert to Bad
   - 2 Bad neighbors → 50% kill, 50% convert
@@ -57,42 +57,42 @@ python simulation.py
   - 2 Good neighbors → Convert Bad to Good
   - 1 Good neighbor → 50% chance both become same type
 
-#### 👥 Group Dynamics
-- **🔢 Large Groups** (4+ connected cells): Enhanced reproductive capabilities
-  - 🔴 Bad groups: 60% spawn probability
-  - 🟢 Good groups: 30% spawn probability
-- **⚔️ Group Competition**: Strategic elimination of isolated opposing individuals
+####  Group Dynamics
+- ** Large Groups** (4+ connected cells): Enhanced reproductive capabilities
+  -  Bad groups: 60% spawn probability
+  -  Good groups: 30% spawn probability
+- **⚔ Group Competition**: Strategic elimination of isolated opposing individuals
 
-#### 📊 Population Control
-- **🏠 Maximum Density**: 40% of total grid capacity
-- **💥 Overpopulation Events**: Advanced crowding algorithms with weighted elimination
-- **🚶 Random Movement**: Stochastic migration patterns to nearby vacant spaces
+#### Population Control
+- **Maximum Density**: 40% of total grid capacity
+- ** Overpopulation Events**: Advanced crowding algorithms with weighted elimination
+- ** Random Movement**: Stochastic migration patterns to nearby vacant spaces
 
-### 🎛️ Special Mechanics
-- **🏝️ Isolation Death**: Homogeneous environments create 10% mortality risk
-- **🎲 Random Conversion**: 1% spontaneous behavioral transformation probability
-- **🔄 Kill Toggle**: Configurable death mechanics (converts lethal events to conversions)
+### Special Mechanics
+- ** Isolation Death**: Homogeneous environments create 10% mortality risk
+- ** Random Conversion**: 1% spontaneous behavioral transformation probability
+- ** Kill Toggle**: Configurable death mechanics (converts lethal events to conversions)
 
-## 🎮 Controls
+## Controls
 
 | Key/Action | Function | Description |
 |------------|----------|-------------|
-| **R** | 🔄 Reset | Initialize new simulation |
-| **SPACE** | ⏯️ Pause/Resume | Toggle simulation state |
-| **+/=** | ⚡ Speed Up | Increase iteration rate |
-| **-** | 🐌 Slow Down | Decrease iteration rate |
-| **🖱️ Click Toggle** | 💀 Kill Mode | Enable/Disable elimination mechanics |
+| **R** |  Reset | Initialize new simulation |
+| **SPACE** | ⏯ Pause/Resume | Toggle simulation state |
+| **+/=** |  Speed Up | Increase iteration rate |
+| **-** |  Slow Down | Decrease iteration rate |
+| ** Click Toggle** | Kill Mode | Enable/Disable elimination mechanics |
 
-## ⚙️ Configuration
+## Configuration
 
 Parameters can be customized in `simulation.py`:
 
 ```python
-CELL_SIZE = 4           # 🎨 Visual rendering scale
-GRID_WIDTH = 200        # 📏 Horizontal grid dimensions  
-GRID_HEIGHT = 150       # 📐 Vertical grid dimensions
-MAX_POPULATION = 40%    # 🏠 Maximum sustainable density
-INITIAL_POPULATION = 15% # 🌱 Starting population ratio
+CELL_SIZE = 4           #  Visual rendering scale
+GRID_WIDTH = 200        #  Horizontal grid dimensions  
+GRID_HEIGHT = 150       #  Vertical grid dimensions
+MAX_POPULATION = 40%    #  Maximum sustainable density
+INITIAL_POPULATION = 15% #  Starting population ratio
 ```
 
 Made with ❤️ from NiceGuy
